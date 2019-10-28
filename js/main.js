@@ -78,4 +78,21 @@
       document.getElementById("title").textContent = "Good Job!";
     }
   }
+
+  function click(e) {
+    var src = e.currentTarget;
+    if (src.bomb) {
+      cell.forEach(function (tr) {
+        tr.forEach(function (td) {
+          if (td.bomb) {
+            td.textContent = "+";
+          }
+        })
+      });
+
+      document.getElementById("title").textContent = "Game Over";
+    } else {
+      open(src.x, src.y);
+    }
+  }
 }
