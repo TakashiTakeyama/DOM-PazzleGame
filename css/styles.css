@@ -7,3 +7,17 @@ td.cell {
 td.open {
   background-color: #fff;
 }
+
+body {
+  background-color: rgb(178, 224, 223);
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}

@@ -1,5 +1,5 @@
 "use strict";
-var W = 15, H = 15, BOMB = 20, cell = [], opened = 0;
+var W = 15, H = 15, BOMB = 50, cell = [], opened = 0;
 
 function init() {
     var main = document.getElementById("main");
