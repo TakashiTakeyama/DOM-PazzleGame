@@ -1,0 +1,23 @@
+td.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #7d7d7d;
+}
+
+td.open {
+  background-color: #fff;
+}
+
+body {
+  background-color: rgb(178, 224, 223);
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
